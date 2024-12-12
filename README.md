@@ -8,6 +8,7 @@ This project is a starting point for a Flutter application and have many labs.
 
 - [Lab1: I am Rich](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab1.dart)
 - [Lab2: Mi Card](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab2.dart)
+- [Lab3: Dicee](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab3.dart)
 
 #### Features
 1. **I am rich**
@@ -20,6 +21,11 @@ This project is a starting point for a Flutter application and have many labs.
 - The app has a white background and a centered image of the user.
 - The app has the user's name, job title, phone number, and email address.
 - The app has icons for the phone number and email address.
+
+3. **Dicee**
+- This is a simple dice app.
+- The app has two dice images that change when the user taps on them.
+- The app has a button that allows the user to roll the dice.
 
 ##### Testing Instructions
 
