@@ -9,6 +9,17 @@ class Lab2 extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: const Color.fromRGBO(252, 239, 237, 1),
+        appBar: AppBar(
+          title: const Text(
+            'MiCard',
+            style: TextStyle(
+              color: Color.fromRGBO(239, 83, 80, 1),
+              fontFamily: 'Pacifico',
+              fontSize: 30,
+            ),
+          ),
+          backgroundColor: Colors.white,
+        ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
