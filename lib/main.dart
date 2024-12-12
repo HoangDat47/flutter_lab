@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lab/lab2.dart';
+import 'package:flutter_lab/lab3.dart';
 import 'lab1.dart';
 
 void main() {
@@ -39,7 +40,7 @@ const _navBarItems = [
   BottomNavigationBarItem(
     icon: Icon(Icons.looks_3_outlined),
     activeIcon: Icon(Icons.looks_3_rounded),
-    label: 'To be continued',
+    label: 'Lab 3',
   ),
 ];
 
@@ -49,7 +50,7 @@ class _NavigationRailPageState extends State<NavigationRailPage> {
   final List<Widget> _pages = [
     const Lab1(),
     const Lab2(),
-    const Center(child: Text('To be continued')),
+    const Lab3(),
   ];
 
   @override
