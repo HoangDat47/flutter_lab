@@ -24,6 +24,7 @@ flutter:
   assets:
      - images/
      - images/dice/
+     - images/ball/
 
   # fonts:
   #   - family: Schyler
