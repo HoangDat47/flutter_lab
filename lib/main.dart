@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_lab/lab2.dart';
 import 'package:flutter_lab/lab3.dart';
 import 'lab1.dart';
+import 'lab4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,6 +43,11 @@ const _navBarItems = [
     activeIcon: Icon(Icons.looks_3_rounded),
     label: 'Lab 3',
   ),
+  BottomNavigationBarItem(
+    icon: Icon(Icons.looks_4_outlined),
+    activeIcon: Icon(Icons.looks_4_rounded),
+    label: 'Lab 4',
+  ),
 ];
 
 class _NavigationRailPageState extends State<NavigationRailPage> {
@@ -51,6 +57,7 @@ class _NavigationRailPageState extends State<NavigationRailPage> {
     const Lab1(),
     const Lab2(),
     const Lab3(),
+    const Lab4(),
   ];
 
   @override

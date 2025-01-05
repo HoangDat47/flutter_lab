@@ -9,6 +9,7 @@ This project is a starting point for a Flutter application and have many labs.
 - [Lab1: I am Rich](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab1.dart)
 - [Lab2: Mi Card](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab2.dart)
 - [Lab3: Dicee](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab3.dart)
+- [Lab4: Magic 8 Ball](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab4.dart)
 
 #### Features
 1. **I am rich**
@@ -26,6 +27,11 @@ This project is a starting point for a Flutter application and have many labs.
 - This is a simple dice app.
 - The app has two dice images that change when the user taps on them.
 - The app has a button that allows the user to roll the dice.
+
+4. **Magic 8 Ball**
+- This is a simple magic 8 ball app.
+- The app has an image of a magic 8 ball that changes when the user shakes the phone.
+- The app has a button that allows the user to shake the phone.
 
 ##### Testing Instructions
 
