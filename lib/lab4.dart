@@ -14,16 +14,19 @@ class _Lab4State extends State<Lab4>{
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: TextButton(
-        onPressed: () {
-          setState(() {
-            // Random.nextInt(n) returns a random integer from 0 to n-1
-            ballNumber = Random().nextInt(5) + 1;
-          });
-        },
-        // Adding images
-        child: Image.asset('images/ball/ball$ballNumber.png'),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Magic 8 Ball'),
+      ),
+      body: Center(
+        child: TextButton(
+          onPressed: () {
+            setState(() {
+              ballNumber = Random().nextInt(5) + 1;
+            });
+          },
+          child: Image.asset('images/ball/ball$ballNumber.png'),
+        ),
       ),
     );
   }

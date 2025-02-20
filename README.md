@@ -10,6 +10,8 @@ This project is a starting point for a Flutter application and have many labs.
 - [Lab2: Mi Card](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab2.dart)
 - [Lab3: Dicee](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab3.dart)
 - [Lab4: Magic 8 Ball](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab4.dart)
+- [Lab5: Quizzler](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab5.dart)
+- [Lab6: Destini](https://github.com/HoangDat47/flutter_lab/blob/master/lib/lab6.dart)
 
 #### Features
 1. **I am rich**
@@ -32,6 +34,16 @@ This project is a starting point for a Flutter application and have many labs.
 - This is a simple magic 8 ball app.
 - The app has an image of a magic 8 ball that changes when the user shakes the phone.
 - The app has a button that allows the user to shake the phone.
+
+5. **Xylophone**
+- This is a simple xylophone app.
+- The app has colored buttons that play different notes when the user taps on them.
+- The app has a button that allows the user to play a song.
+
+6. **Quizzler**
+- This is a simple quiz app.
+- The app has a question and four answer choices.
+- The app has a progress bar that shows the user's progress.
 
 ##### Testing Instructions
 
